@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_margin="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edt_kegiatan"
+        android:hint="Kegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:layout_below="@+id/edt_kegiatan"
+        android:id="@+id/edt_deskripsi"
+        android:hint="Deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn"
+        android:textColor="@color/white"
+        android:text="EDIT"
+        android:layout_below="@id/edt_deskripsi"
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn_delete"
+        android:textColor="@color/white"
+        android:text="DELETE"
+        android:layout_below="@id/edt_deskripsi"
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</RelativeLayout>
